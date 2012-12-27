@@ -1,4 +1,6 @@
 <?php
+namespace ConstantContact;
+
 require_once('Authentication.php'); // OAuth & Basic Authentication classes (CTCTDataStore, CTCTRequest, OAuthToken...)
 require_once('Collections.php'); // Constant Contact collection resource classes (ContactsCollection, ListsCollection..)
 require_once('Components.php'); // Constant Contact object classes (Contact, List, Campaign, Event...)

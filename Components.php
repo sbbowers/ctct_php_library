@@ -1,4 +1,6 @@
 <?php
+namespace ConstantContact;
+
 abstract class CCObject{
 	/**
 	 * Validate an object to check that all required fields have been supplied
@@ -1429,7 +1431,7 @@ class Utility{
     }
 }
 
-class CTCTException extends Exception{
+class CTCTException extends \Exception{
     public function __construct($message, $code = 0, Exception $previous = null){
         parent::__construct($message, $code);
     }
