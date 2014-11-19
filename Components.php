@@ -1437,8 +1437,8 @@ class CTCTException extends \Exception{
     }
 
     public function generateError($msgPrefix=null){
-        $this->logError($this->message);
-        echo $msgPrefix.' '.$this->getMessage().'<br />';
+        // $this->logError($this->message);
+        // echo $msgPrefix.' '.$this->getMessage().'<br />';
     }
 
     private function logError($errorText, $file="error.log"){
